@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 
 body {
   margin: 0;
@@ -7,7 +10,8 @@ body {
   background-image: url("./images/backgound.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center;
+  height: 100%;
   /* background-color: #d5d4d4; */
 }
 
