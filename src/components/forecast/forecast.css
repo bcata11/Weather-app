@@ -1,6 +1,11 @@
 .title {
     font-size: 23px;
     font-weight: 600;
+    margin: 1rem;
+}
+
+.accordion {
+    margin: 0 1rem;
 }
 
 .daily-item {
