@@ -7,15 +7,36 @@ body {
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/backgound.jpg");
+  /* background-image: url("./images/backgound.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
+  height: 100%; */
   /* background-color: #d5d4d4; */
+
+  background: url("./images/backgound.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.css-b62m3t-container {
+  margin:0 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+      height:100%;
+  }
 }
